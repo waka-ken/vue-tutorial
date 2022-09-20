@@ -5,6 +5,8 @@
     <router-link to="/demo01">demo1</router-link>|
     <router-link to="/demo02">demo2</router-link>|
     <router-link to="/demo03">demo3</router-link>|
+    <router-link to="/demo04">demo4</router-link>|
+    <router-link to="/demo05">demo5</router-link>|
   </nav>
   <router-view/>
 </template>
