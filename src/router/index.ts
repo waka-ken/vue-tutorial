@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import ViewDemo from '../views/ViewDemo01.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -22,6 +21,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/demo03',
     // name: 'VIewDemo03',
     component: () => import('../views/ViewDemo03.vue'),
+  },
+  {
+    path: '/demo04',
+    // name: 'VIewDemo04',
+    component: () => import('../views/ViewDemo04.vue'),
+  },
+  {
+    path: '/demo05',
+    // name: 'VIewDemo05',
+    component: () => import('../views/ViewDemo05.vue'),
   }
 
 
