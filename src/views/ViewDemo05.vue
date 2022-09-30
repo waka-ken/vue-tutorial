@@ -3,11 +3,12 @@
 </template>
 
 <script>
-import {defineComponent } from "vue";
+import { defineComponent } from "vue";
 import FormBinding from "../components/formBinding";
+
 export default defineComponent ({
   name: "ViewDemo05",
-  components: { FormBinding }
+  components: { FormBinding },
 })
 </script>
 
